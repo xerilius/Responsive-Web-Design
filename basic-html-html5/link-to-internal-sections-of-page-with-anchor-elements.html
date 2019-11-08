@@ -1,0 +1,33 @@
+<!-- Link to Internal Sections of a Page with Anchor Elements
+
+a (anchor) elements can also be used to create internal links to jump to different sections within a webpage.
+
+To create an internal link:
+- assign a link's href attribute to a hash symbol # plus the value of the id attribute for the element that you want to internally link to, usually further down the page. 
+- Need to add the same id attribute to the element you are linking to. 
+- An id is an attribute that uniquely describes an element.
+
+Example of an internal anchor link and its target element:
+<a href="#contacts-header">Contacts</a>
+...
+<h2 id="contacts-header">Contacts</h2>
+
+When users click the Contacts link, they'll be taken to the section of the webpage with the Contacts header element.
+
+Notes:
+    target="_blank" attribute from the anchor tag since this causes the linked document to open in a new window tab
+-->
+
+<h2>CatPhotoApp</h2>
+<main>
+<!-- to create internal link: <a href="#value-of-id-attr-of-element"> Internal Link </a>-->
+  <a href="#footer">Jump to Bottom</a>
+
+  <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff. Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched. Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+  
+</main>
+
+<!-- Add id attr so <a> can reference to it -->
+<footer id="footer">Copyright Cat Photo App</footer>
