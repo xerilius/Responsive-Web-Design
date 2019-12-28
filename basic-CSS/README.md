@@ -12,28 +12,28 @@ CSS has been adopted by all major browsers and allows you to control:
 * transitions
 
 Three main ways to apply CSS styling:<br>
-1. **Inline styles** directly to HTML elements with the `style` attribute.<br>
-2. CSS rules within **<style> tags in an HTML document**. <br>
-3. Write CSS rules in an **external style sheet**, then reference that file in the HTML document.<br> 
+1. &nbsp;**Inline styles** directly to HTML elements with the `style` attribute.<br>
+2. &nbsp;CSS rules within **<style> tags in an HTML document**. <br>
+3. &nbsp;Write CSS rules in an **external style sheet**, then reference that file in the HTML document.<br> 
 
  Even though the first two options have their use cases, **most developers prefer external style sheets because they keep the styles separate from the HTML elements**. This improves the readability and reusability of your code. <br>
 
  The idea behind CSS is that you can use a selector to target an HTML element in the DOM (Document Object Model) and then apply a variety of attributes to that element to change the way it is displayed on the page.<br>
- 
+
 ---
 In this section, see how adding CSS styles to the elements of CatPhotoApp can change it from simple text to something more.
 <ol>
-<li>Change the Color of Texts</li>
-<li>Use CSS Selectors to Style Elements</li>
-<li>Use a CSS Class to Style an Element</li>
-<li>Style Multiple Elements with a CSS Class</li>
-<li>Change the Font Size of an Element</li>
-<li>Set the Font Family of an Element</li>
-<li>Import a Google Font</li>
-<li>Specify How Fonts Should Degrade</li>
-<li>Size Your Images</li>
-<li>Add Borders Around Your Elements</li>
-<li>Add Rounded Corners with border-radius</li>
+<li>&nbsp;Change the Color of Texts</li>
+<li>&nbsp;Use CSS Selectors to Style Elements</li>
+<li>&nbsp;Use a CSS Class to Style an Element</li>
+<li>&nbsp;Style Multiple Elements with a CSS Class</li>
+<li>&nbsp;Change the Font Size of an Element</li>
+<li>&nbsp;Set the Font Family of an Element</li>
+<li>&nbsp;Import a Google Font</li>
+<li>&nbsp;Specify How Fonts Should Degrade</li>
+<li>&nbsp;Size Your Images</li>
+<li>&nbsp;Add Borders Around Your Elements</li>
+<li>&nbsp;Add Rounded Corners with border-radius</li>
 <li>Make Circular Images with a border-radius</li>
 <li>Give a Background Color to a div Element</li>
 <li>Set the id of an Element</li>
