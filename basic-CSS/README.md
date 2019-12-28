@@ -1,4 +1,4 @@
-# I n t r o d u c t i o n &nbsp;t o &nbsp;Basic CSS
+# ░I n t r o d u c t i o n &nbsp;to ░ Basic CSS
 Cascading Style Sheets (CSS) tell the browser how to display the text and other content that you write in HTML.
 
 `Note:` CSS is case-sensitive. <br>
