@@ -11,14 +11,12 @@ CSS has been adopted by all major browsers and allows you to control:
 * decorations
 * transitions
 
-Three main ways to apply CSS styling:
-<ol>
- <li>**Inline styles** directly to HTML elements with the `style` attribute. </li>
- <li>CSS rules within **<style> tags in an HTML document**. </li>
- <li>Write CSS rules in an **external style sheet**, then reference that file in the HTML document.</li> 
-</ol>
+Three main ways to apply CSS styling:<br>
+1. **Inline styles** directly to HTML elements with the `style` attribute.<br>
+2. CSS rules within **<style> tags in an HTML document**. <br>
+3. Write CSS rules in an **external style sheet**, then reference that file in the HTML document.<br> 
 
- Even though the first two options have their use cases, **most developers prefer external style sheets because they keep the styles separate from the HTML elements**. This improves the readability and reusability of your code. <br><br>
+ Even though the first two options have their use cases, **most developers prefer external style sheets because they keep the styles separate from the HTML elements**. This improves the readability and reusability of your code. <br>
 
  The idea behind CSS is that you can use a selector to target an HTML element in the DOM (Document Object Model) and then apply a variety of attributes to that element to change the way it is displayed on the page.<br>
 
