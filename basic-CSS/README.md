@@ -1,7 +1,7 @@
 # Introduction to Basic CSS
 Cascading Style Sheets (CSS) tell the browser how to display the text and other content that you write in HTML.
 
-`Note:` CSS is case-sensitive. 
+`Note:` CSS is case-sensitive. <br>
 CSS has been adopted by all major browsers and allows you to control:
 * color
 * fonts
@@ -19,7 +19,7 @@ Three main ways to apply CSS styling:
 </ol>
 
  Even though the first two options have their use cases, **most developers prefer external style sheets because they keep the styles separate from the HTML elements**. This improves the readability and reusability of your code. <br><br>
- 
+
  The idea behind CSS is that you can use a selector to target an HTML element in the DOM (Document Object Model) and then apply a variety of attributes to that element to change the way it is displayed on the page.<br>
 
 In this section, see how adding CSS styles to the elements of CatPhotoApp can change it from simple text to something more.
