@@ -34,37 +34,37 @@ In this section, see how adding CSS styles to the elements of CatPhotoApp can ch
 <li>&nbsp;Size Your Images</li>
 <li>&nbsp;Add Borders Around Your Elements</li>
 <li>&nbsp;Add Rounded Corners with border-radius</li>
-<li>Make Circular Images with a border-radius</li>
-<li>Give a Background Color to a div Element</li>
-<li>Set the id of an Element</li>
-<li>Use an id Attribute to Style an Element</li>
-<li>Adjust the Padding of an Element</li>
-<li>Adjust the Margin of an Element</li>
-<li>Add a Negative Margin to an Element</li>
-<li>Add Different Padding to Each Side of an Element</li>
-<li>Add Different Margins to Each Side of an Element</li>
-<li>Use Clockwise Notation to Specify the Padding of an Element</li>
-<li>Use Clockwise Notation to Specify the Margin of an Element</li>
-<li>Use Attribute Selectors to Style Elements</li>
-<li>Understand Absolute versus Relative Units</li>
-<li>Style the HTML Body Element</li>
-<li>Inherit Styles from the Body Element</li>
-<li>Prioritize One Style Over Another</li>
-<li>Override Styles in Subsequent CSS</li>
-<li>Override Class Declarations by Styling ID Attributes</li>
-<li>Override Class Declarations with Inline Styles</li>
-<li>Override All Other Styles by using Important</li>
-<li>Use Hex Code for Specific Colors</li>
-<li>Use Hex Code to Mix Colors</li>
-<li>Use Abbreviated Hex Code</li>
-<li>Use RGB values to Color Elements</li>
-<li>Use RGB to Mix Colors</li>
-<li>Use CSS Variables to change several elements at once</li>
-<li>Create a custom CSS Variable</li>
-<li>Use a custom CSS Variable</li>
-<li>Attach a Fallback value to a CSS Variable</li>
-<li>Improve Compatibility with Browser Fallbacks</li>
-<li>Inherit CSS Variables</li>
-<li>Change a variable for a specific area</li>
-<li>Use a media query to change a variable</li>
+<li>&nbsp;Make Circular Images with a border-radius</li>
+<li>&nbsp;Give a Background Color to a div Element</li>
+<li>&nbsp;Set the id of an Element</li>
+<li>&nbsp;Use an id Attribute to Style an Element</li>
+<li>&nbsp;Adjust the Padding of an Element</li>
+<li>&nbsp;Adjust the Margin of an Element</li>
+<li>&nbsp;Add a Negative Margin to an Element</li>
+<li>&nbsp;Add Different Padding to Each Side of an Element</li>
+<li>&nbsp;Add Different Margins to Each Side of an Element</li>
+<li>&nbsp;Use Clockwise Notation to Specify the Padding of an Element</li>
+<li>&nbsp;Use Clockwise Notation to Specify the Margin of an Element</li>
+<li>&nbsp;Use Attribute Selectors to Style Elements</li>
+<li>&nbsp;Understand Absolute versus Relative Units</li>
+<li>&nbsp;Style the HTML Body Element</li>
+<li>&nbsp;Inherit Styles from the Body Element</li>
+<li>&nbsp;Prioritize One Style Over Another</li>
+<li>&nbsp;Override Styles in Subsequent CSS</li>
+<li>&nbsp;Override Class Declarations by Styling ID Attributes</li>
+<li>&nbsp;Override Class Declarations with Inline Styles</li>
+<li>&nbsp;Override All Other Styles by using Important</li>
+<li>&nbsp;Use Hex Code for Specific Colors</li>
+<li>&nbsp;Use Hex Code to Mix Colors</li>
+<li>&nbsp;Use Abbreviated Hex Code</li>
+<li>&nbsp;Use RGB values to Color Elements</li>
+<li>&nbsp;Use RGB to Mix Colors</li>
+<li>&nbsp;Use CSS Variables to change several elements at once</li>
+<li>&nbsp;Create a custom CSS Variable</li>
+<li>&nbsp;Use a custom CSS Variable</li>
+<li>&nbsp;Attach a Fallback value to a CSS Variable</li>
+<li>&nbsp;Improve Compatibility with Browser Fallbacks</li>
+<li>&nbsp;Inherit CSS Variables</li>
+<li>&nbsp;Change a variable for a specific area</li>
+<li>&nbsp;Use a media query to change a variable</li>
 </ol>
