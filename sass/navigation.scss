@@ -4,8 +4,101 @@
     padding:0;
 }
 
+
+// sass variables
 $color-primary: yellow;
+$color-secondary: pink;
+$color-tertiary: skyblue; 
+$color-text-dark: gray; 
+$width-button: 150px;
+
+
+// better to use mixins than extends
+// @mixin name($variableName) { }
+@mixin style-link-text($color) {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $color;
+}
+// @mixin name -- css function
+@mixin clearfix {
+    // clear fix method - fixed collapse nav element
+    &::after {
+        content:"";
+        clear: both;
+        display: table;
+    }
+}
+
+
+
+
+// theoretical way of using functions
+@function functionName($a,$b){
+    @return $a/ $b;
+}
+
 nav {
-    margin: 30px;
+    margin: functionName(60,2) *1px; // margin: 30px;
     background-color: $color-primary;
+
+    @include clearfix;
+}
+
+
+.navigation {
+    list-style: none;
+    float: left;
+    
+    // .navigation li { }
+    li { 
+        display: inline-block; // sitting side by side
+        margin-left: 30px;
+
+        // .navigation li:first-child { }
+        &:first-child {
+            margin: 0;
+        }
+
+        // .navigation li a:link { }
+        a:link {
+            // text-decoratoin: none;
+            // text-transform: uppercase;
+            // color: $color-text-dark;
+            @include style-link-text($color-text-dark);
+
+        }
+    }
+}
+
+.buttons {
+    float: right;
+}
+
+
+// % -- placeholder used for [extend]
+%btn-placeholder {
+    padding: 18px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100px;  // large number to round edges
+    // gets rid of underline
+    text-decoration: none;
+    text-transform: uppercase;
+    width: $width-button;
+}
+
+.btn-main {
+    &:link {
+        // @extend - selector is copied to the placeholder rules - for related elements
+        //  while @mixins - rules are copied to the selector
+        @extend %btn-placeholder;
+        background-color: $color-secondary;        
+    }
+
+    &:hover {
+        // color function - lighten(color, % lighter)
+        // color function - darken(color, % darker)
+        background-color: darken($color-secondary, 15%)
+    }
 }
